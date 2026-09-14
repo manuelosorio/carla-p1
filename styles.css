@@ -1,0 +1,25 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.mobile-comps, .web-comps {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: .5em;
+    justify-content: center;
+}
+
+iframe {
+   display: block;
+   margin: auto;
+}
+
+
+
